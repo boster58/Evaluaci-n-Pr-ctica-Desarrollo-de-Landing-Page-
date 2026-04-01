@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #2cd4d1;
+  color: #333333;
   line-height: 1.6;
 }
 
@@ -24,13 +24,13 @@ section h2 {
 
 .card {
   margin-bottom: 2rem;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 8px;
 }
 
 .card-title {
   font-size: 1.25rem;
-  color: #0066cc;
+  color: #5896d4;
 }
 
 form {
@@ -73,7 +73,25 @@ footer {
   }
 }
 
+
+/*permite estableser un tamaño fijo para las imágenes del carrusel */
 #carouselMascotas img {
-  height: 400px;       /* altura fija */
-  object-fit: cover;   /* recorta la imagen manteniendo proporción */
+  height: 400px;       
+  object-fit: cover;   
+}
+
+/* agregar estilo para la   comentarios que se minimalista para el usuario */
+#comentarios {
+  background-color: #f1f1f1;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+#comentarios h2 {
+  color: #004080;
+}
+
+#comentarios form {
+  max-width: 600px;
+  margin: 0 auto;
 }
