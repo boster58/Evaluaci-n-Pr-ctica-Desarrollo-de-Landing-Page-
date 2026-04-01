@@ -1,5 +1,5 @@
 
-/* implementacion estudiante con apollo de ia */
+/* implementacion estudiante con apollo de ia para poder estableser colores y tamaños de imágenes */
 body {
   font-family: Arial, sans-serif;
   background-color: #2cd4d1;
@@ -76,13 +76,13 @@ footer {
 }
 
 
-/*permite estableser un tamaño fijo para las imágenes del carrusel */
+/*permite estableser un tamaño fijo para las imágenes del carrusel sujerenci de ia para ebitar deescuadres */
 #carouselMascotas img {
   height: 400px;       
   object-fit: cover;   
 }
 
-/* agregar estilo para la   comentarios que se minimalista para el usuario */
+/* agregar estilo para el apartado de comentarios con sujerencia de tamaño estanda por parte de ia  */
 #comentarios {
   background-color: #f1f1f1;
   padding: 2rem;
